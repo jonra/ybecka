@@ -56,14 +56,14 @@ hr.star-primary:after {
     font-family: FontAwesome;
     font-size: 2em;
 }
-
+ 
 hr.star-light {
     border-color: #fff;
 }
 
 hr.star-light:after {
     color: #fff;
-    background-color: #18bc9c;
+    background-color: #f77806;
 }
 
 hr.star-primary {
