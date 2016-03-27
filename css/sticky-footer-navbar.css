@@ -1,0 +1,162 @@
+body > .container {
+    padding-top: 100px;
+}
+
+body {
+    background-color: #ecf0f1;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    
+    margin-bottom: 60px;
+}
+
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    
+    height: 60px;
+    background-color: #1f243d;
+}
+
+.jumbotron {
+    background: #000 url("../img/pens.jpg") no-repeat center center;
+    background-size: 100% 100%;
+    -moz-background-size: 100% 100%;
+    -webkit-background-size: 100% 100%;
+    -o-background-size: 100% 100%;
+    background-size: cover;
+    overflow: hidden;
+    color: #FFF;
+    text-align: center;
+    height: 600px;
+    padding-top: 300px;
+}
+
+.jumbotron h1 {
+    text-shadow: 1px 1px black;
+}
+
+.center {
+    text-align: center;
+}
+
+.s1 {
+    padding: 50px;
+    position: relative;
+}
+
+.s2 {
+    background-color: #EF767A;
+    color: white;
+    padding: 50px;
+}
+
+
+.s3 {
+    background-color: #43AA8B;
+    color: white;
+    padding: 50px;
+}
+
+.s4 {
+    background-color: #009FB7;
+    color: white;
+    padding: 50px;
+}
+
+.s5 {
+    background-color: #FCD757;
+    color: white;
+    padding: 50px;
+}
+
+.select {
+    width: 100%;
+    margin: 20px;
+    white-space: normal !important;
+    word-wrap: break-word;
+}
+
+.icons-color {
+    color: #565554;
+}
+
+.bullet {
+    padding: 20px;
+}
+
+.shortcuts {
+    text-align: center;
+}
+
+hr {
+    color: #7f8c8d;
+    background-color: #7f8c8d;
+    height: 1px;
+}
+
+
+.footer {
+    background-color: #ecf0f1;
+    margin-top: 0px;
+    padding: 0px;
+    text-align: center;
+}
+
+/*Navigation */
+
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: #bdc3c7;
+    /*Sets the text hover color on navbar*/
+}
+
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+    color: white;
+    /*BACKGROUND color for active*/
+    
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.navbar-default {
+    background-color: rgba(255, 255, 255, 1);
+    background-color: #43AA8B;
+    border-color: rgba(255, 255, 255, 0);
+}
+
+.dropdown-menu > li > a:hover,
+.dropdown-menu > li > a:focus {
+    color: #262626;
+    text-decoration: none;
+    background-color: #66CCFF;
+    /*change color of links in drop down here*/
+}
+
+.nav > li > a:hover,
+.nav > li > a:focus {
+    text-decoration: none;
+    background-color: silver;
+    /*Change rollover cell color here*/
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: #34495e;
+    /*Change active text color here*/
+}
+
+.navbar {
+    min-height: 130px; //* or whatever height you require
+}
