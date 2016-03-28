@@ -1,5 +1,6 @@
 body > .container {
     padding-top: 100px;
+    
 }
 
 body {
@@ -62,6 +63,10 @@ body {
     padding: 50px;
 }
 
+.white {
+    color: white;
+}
+
 
 .s3 {
     background-color: #43AA8B;
@@ -81,30 +86,12 @@ body {
     padding: 50px;
 }
 
-.select {
-    width: 100%;
-    margin: 20px;
-    white-space: normal !important;
-    word-wrap: break-word;
+.socialbuttons {
+    background-color: #95a5a6;
+    padding: 30px;
+    color: white;
 }
 
-.icons-color {
-    color: #565554;
-}
-
-.bullet {
-    padding: 20px;
-}
-
-.shortcuts {
-    text-align: center;
-}
-
-hr {
-    color: #7f8c8d;
-    background-color: #7f8c8d;
-    height: 1px;
-}
 
 
 .footer {
