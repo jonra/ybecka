@@ -55,6 +55,7 @@ body {
 
 .s1 {
     padding: 50px;
+    padding-top: 80px;
     position: relative;
 }
 
@@ -142,5 +143,5 @@ body {
 }
 
 .navbar {
-    min-height: 130px; //* or whatever height you require
+    min-height: 60px; //* or whatever height you require
 }
